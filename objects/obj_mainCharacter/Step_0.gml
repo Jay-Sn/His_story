@@ -25,11 +25,8 @@ if(keyboard_check(ord("Z")) && canPress){
 		instance_destroy(inventoryDisplay.combined)
 		inventoryDisplay.combined = noone;
 		instance_destroy(inventoryDisplay)
-
-
 		alarm[1] = 50;
 	}
-
 }
 
 
