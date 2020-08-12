@@ -2,7 +2,7 @@
 
 itemToCombineWith = argument0;
 itemBeingCombined = argument1;
-ItemList = argument2;
+//ItemList = argument2;
 //beingCominedIndex = ds_list_find_index(ItemList, itemBeingCombined);
 //combinedWithIndex = ds_list_find_index(ItemList, itemBeingCombined);
 //if(beingCominedIndex > combinedWithIndex){
@@ -21,8 +21,8 @@ if (grab){
 		//ds_list_delete(ItemList, beingCominedIndex);
 		//ds_list_delete(ItemList, combinedWithIndex);
 		//obj_inventory.items[newIndex] = combined;
-		//instance_destroy(itemBeingCombined);
-		//instance_destroy(itemToCombineWith);
+		instance_destroy(itemBeingCombined);
+		instance_destroy(itemToCombineWith);
 		exit;
 	}
 	else{
