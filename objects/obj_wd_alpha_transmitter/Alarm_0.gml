@@ -1,0 +1,1 @@
+obj_wd_alpha_transmitter_tick();

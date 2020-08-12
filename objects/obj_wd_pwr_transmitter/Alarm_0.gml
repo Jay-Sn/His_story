@@ -1,0 +1,1 @@
+obj_wd_pwr_transmitter_tick();

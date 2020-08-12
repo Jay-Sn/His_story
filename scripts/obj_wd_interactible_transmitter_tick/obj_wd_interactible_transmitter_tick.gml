@@ -1,9 +1,9 @@
 var n_objs = array_length_1d(linked_objs);
 
 if(_power > 0) {
-	sprite_index = spr_transmitter_active;
+	sprite_index = spr_int_transmitter_active;
 } else {
-	sprite_index = spr_transmitter_inactive;
+	sprite_index = spr_int_transmitter_inactive;
 }
 
 if(n_objs > 0) {    
