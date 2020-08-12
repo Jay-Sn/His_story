@@ -17,3 +17,4 @@ if(keyboard_check(ord("X")) and can_display == 0){
 	}
 }
 
+ 
