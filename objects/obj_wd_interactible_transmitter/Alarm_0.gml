@@ -1,0 +1,1 @@
+obj_wd_interactible_transmitter_tick();
