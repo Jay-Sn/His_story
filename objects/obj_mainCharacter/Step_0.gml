@@ -6,29 +6,20 @@ var speed_limit = 7;
 var hor = false;
 var vert = false;
 
-//Menu Options
+//Inventory
 if(keyboard_check(ord("Z")) && canPress){
 	canPress = false;
 	if(inventoryDisplay == noone){
 		show_debug_message("Create");
 		inventoryDisplay = instance_create_depth(70,576,-1000000000, obj_inventory);
-		inventoryDisplay.display = true;
 		alarm[2] = 50;
 	}
 	else{
-		inventoryDisplay.display = false;
-		show_debug_message("Destroy");
-		instance_destroy(inventoryDisplay.itemA)
-		inventoryDisplay.itemA = noone;
-		instance_destroy(inventoryDisplay.itemB)
-		inventoryDisplay.itemB = noone;
-		instance_destroy(inventoryDisplay.combined)
-		inventoryDisplay.combined = noone;
-		instance_destroy(inventoryDisplay)
+		show_debug_message("Close")
+		inventoryDisplay.closeInventory = true;
 		alarm[1] = 50;
 	}
 }
-
 
 // Movement Keybinds
 if(keyboard_check(vk_shift)) speed_limit +=3;

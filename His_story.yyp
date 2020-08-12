@@ -439,6 +439,14 @@
             }
         },
         {
+            "Key": "4cb695c9-ecbf-478a-bf84-ae8019dabb23",
+            "Value": {
+                "id": "d840a169-7d74-4474-9b84-f8a52d751a79",
+                "resourcePath": "scripts\\destroyInventory\\destroyInventory.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "4f890ce9-00bc-4b1b-b1c3-2a03a89ce98d",
             "Value": {
                 "id": "157281b8-eb44-41cc-97a9-27ebd2265486",
@@ -871,6 +879,14 @@
             }
         },
         {
+            "Key": "a27e567c-e763-4d83-91b7-b983f4993220",
+            "Value": {
+                "id": "ab127dc7-12b9-49d4-ab5f-30c4938e5a4f",
+                "resourcePath": "objects\\obj_inventory2\\obj_inventory2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a403b101-3830-4466-91a6-eba4e5fad1ba",
             "Value": {
                 "id": "db9ebfc6-7b80-42fd-9d94-20a0c9861065",
@@ -1288,6 +1304,7 @@
         }
     ],
     "script_order": [
+        "4cb695c9-ecbf-478a-bf84-ae8019dabb23",
         "773ac0ec-d653-41c5-b26d-b6de3bad0f35",
         "d076065a-3e61-428d-acde-35a508ac13cd",
         "da81020b-5e56-421f-9d8d-0fdbc690ef88",
