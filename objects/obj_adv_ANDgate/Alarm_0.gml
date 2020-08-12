@@ -1,0 +1,1 @@
+obj_adv_ANDgate_tick();

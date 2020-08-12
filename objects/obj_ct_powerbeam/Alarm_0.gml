@@ -1,0 +1,1 @@
+obj_ct_powerbeam_tick();

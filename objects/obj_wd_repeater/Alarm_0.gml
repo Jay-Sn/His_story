@@ -1,0 +1,1 @@
+obj_wd_repeater_tick();

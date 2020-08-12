@@ -1,0 +1,1 @@
+linked_objs[0] = source1;

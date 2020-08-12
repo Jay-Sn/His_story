@@ -1,0 +1,1 @@
+obj_sw_NOTswitch_tick();

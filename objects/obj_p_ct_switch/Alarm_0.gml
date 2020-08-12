@@ -1,0 +1,1 @@
+obj_p_ct_switch_tick();

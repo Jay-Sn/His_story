@@ -1,0 +1,1 @@
+obj_sw_light_tick();

@@ -1,0 +1,1 @@
+obj_sw_switch_toggle();
