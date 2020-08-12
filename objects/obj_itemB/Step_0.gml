@@ -1,3 +1,3 @@
  /// @description Insert description here
 // You can write your code in this editor
-checkItemCombining(obj_itemA, self, obj_inventory.items);
+checkItemCombining(obj_itemA, self);
