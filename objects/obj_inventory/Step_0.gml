@@ -46,6 +46,7 @@ if(pickup_slot != -1){
 			pickup_slot = -1;
 			
 		} else if((ss_item == item.can and pickup_slot == item.canOpener) or (ss_item == item.canOpener and pickup_slot == item.can)){
+			
 			inv_grid[# 0,selected_slot] = item.openedCan;
 			
 			inv_grid[# 0,pickup_slot] = item.none;

@@ -4,8 +4,8 @@ depth = -1;
 scale = 1;
 show_inventory = false;
 
-inv_slots = 3;
-inv_slots_width = 3;
+inv_slots = 5;
+inv_slots_width = 5;
 inv_slots_height = 1;
 
 selected_slot = 0;
@@ -52,9 +52,11 @@ enum item{
 	openedCan	= 4,
 	height		= 5,
 }
-
-var yy = 0; repeat(inv_slots){
-	ds_inventory[# 0,yy] = yy + 1;
-	show_debug_message(ds_inventory[# 0,yy]);
-	yy += 1;
-}
+ds_inventory[# 0,0] = item.pendant;
+ds_inventory[# 0,1] = item.can;
+ds_inventory[# 0,2] = item.canOpener;
+//var yy = 0; repeat(inv_slots){
+//	ds_inventory[# 0,yy] = yy + 1;
+//	show_debug_message(ds_inventory[# 0,yy]);
+//	yy += 1;
+//}
