@@ -10,9 +10,14 @@ if(n_objs > 0) {
     // Power other object every tick so long as switch is on
 	for(i=0;i<n_objs;i++) {
 		var obj = linked_objs[i];
-		if(obj.object_index == obj_interactable) { 
+		if(obj != noone and obj.object_index == obj_interactable) { 
 		    with(obj) {
 		        is_enabled = other._power > 0;
+				if(is_enabled and has_item) {
+					with(bound_star) visible = true;
+				} else {
+					with(bound_star) visible = false;
+				}
 		    }
 		}
 	}
