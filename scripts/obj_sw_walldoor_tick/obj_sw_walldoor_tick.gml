@@ -2,4 +2,4 @@ if(prev_power != _power) obj_sw_walldoor_toggle();
 
 event_inherited();
 
-_power = 0;
+alarm_set(0, _tick);
