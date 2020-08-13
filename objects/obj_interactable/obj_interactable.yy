@@ -65,6 +65,34 @@
             "value": "True",
             "varName": "is_enabled",
             "varType": 3
+        },
+        {
+            "id": "103058bf-7c57-48c6-b221-cc6d22636b8a",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "has_item",
+            "varType": 3
+        },
+        {
+            "id": "f74faa96-0a2b-4bb1-9eca-ea3590b232fd",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "bound_star",
+            "varType": 0
         }
     ],
     "solid": false,

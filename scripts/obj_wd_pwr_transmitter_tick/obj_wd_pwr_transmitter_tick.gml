@@ -10,9 +10,11 @@ if(n_objs > 0) {
     // Power other object every tick so long as switch is on
 	for(i=0;i<n_objs;i++) {
 		var obj = linked_objs[i];
-	    with(obj) {
-	        _power = other._power;
-	    }
+		if(obj != noone) {
+		    with(obj) {
+		        _power = other._power;
+		    }
+		}
 	}
 }
 
