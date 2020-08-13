@@ -5,7 +5,8 @@ var n_obj = array_length_1d(linked_objs);
             if(obj != noone){
                 // Power other object every tick so long as switch is on
                 with(obj) {
-                    _power = 256-max(0, other._power);
+                    if(other._power <= 0) _power = 256;
+					else _power = 0;
                 }
             }
         }

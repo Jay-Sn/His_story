@@ -1,8 +1,8 @@
 {
-    "id": "270d3202-8d55-43bb-ac52-091e42245b7c",
+    "id": "32c57372-f02f-4a29-b4c8-b034e9f06268",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "obj_sw_walldoor_toggle",
+    "name": "obj_light_controller_init",
     "IsCompatibility": false,
     "IsDnD": false
 }

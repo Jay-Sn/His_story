@@ -1,0 +1,1 @@
+obj_light_controller_init();

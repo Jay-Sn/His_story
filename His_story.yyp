@@ -271,6 +271,14 @@
             }
         },
         {
+            "Key": "270d3202-8d55-43bb-ac52-091e42245b7c",
+            "Value": {
+                "id": "daf5594e-df54-45b6-ad36-f8c7a4df602e",
+                "resourcePath": "scripts\\obj_sw_walldoor_toggle\\obj_sw_walldoor_toggle.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "27c20ba1-ca71-41ae-944b-c54631c7d379",
             "Value": {
                 "id": "f58c6b97-8e2a-4d6f-bd8f-b3a3783034c5",
@@ -340,6 +348,14 @@
                 "id": "56215d5d-15b8-4aed-8f38-66d21605c172",
                 "resourcePath": "sprites\\spr_camp\\spr_camp.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "32c57372-f02f-4a29-b4c8-b034e9f06268",
+            "Value": {
+                "id": "42606c11-2159-4f7d-b988-3841484e63c7",
+                "resourcePath": "scripts\\obj_light_controller_init\\obj_light_controller_init.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -455,6 +471,14 @@
             }
         },
         {
+            "Key": "46ba38c0-32eb-49b4-9a01-df8e82d3d467",
+            "Value": {
+                "id": "0b91b753-99c0-4e8b-884c-3f2af082050a",
+                "resourcePath": "views\\46ba38c0-32eb-49b4-9a01-df8e82d3d467.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "48a17aa1-a4c8-48a7-9d04-44689afd9094",
             "Value": {
                 "id": "3ab80746-a2ec-4b21-adbd-d30227e03d3e",
@@ -535,11 +559,27 @@
             }
         },
         {
+            "Key": "54fd6a6d-6f6d-43c4-aef1-e22c49a2a69f",
+            "Value": {
+                "id": "376249fc-f85f-4b61-9d15-1d651d26a1c7",
+                "resourcePath": "scripts\\obj_light_controller_drawend\\obj_light_controller_drawend.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "57e95039-a2fd-44bc-be69-c54008e3519f",
             "Value": {
                 "id": "6d9f8901-f3d5-4ecb-aa3c-5a40a44201c7",
                 "resourcePath": "views\\57e95039-a2fd-44bc-be69-c54008e3519f.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "58383a0a-673f-45f2-8b79-5b3536104d8a",
+            "Value": {
+                "id": "e67902f4-59c9-46f8-85f2-225ad1d443ea",
+                "resourcePath": "scripts\\obj_light_controller_step\\obj_light_controller_step.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -572,6 +612,14 @@
                 "id": "c5d26ba0-e9b2-45ca-b36b-97b7f6333a5f",
                 "resourcePath": "rooms\\rm_startingRoom\\rm_startingRoom.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "5c0a5141-a79f-49ef-841e-8553111379a4",
+            "Value": {
+                "id": "57a60cac-e407-4ac6-b931-4f55bdd5c47e",
+                "resourcePath": "views\\5c0a5141-a79f-49ef-841e-8553111379a4.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -715,6 +763,14 @@
             "Value": {
                 "id": "1450b08d-286b-404b-884b-cf69029c055f",
                 "resourcePath": "scripts\\selectCharaDialog\\selectCharaDialog.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "774e878b-3e82-45cd-a005-833b1330a04e",
+            "Value": {
+                "id": "8f6dc712-3238-405c-8ac3-e54e6d77ceea",
+                "resourcePath": "scripts\\obj_light_controller_roomend\\obj_light_controller_roomend.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -919,6 +975,14 @@
             }
         },
         {
+            "Key": "9706cc32-17ba-4a97-a155-89eeb4fc1adf",
+            "Value": {
+                "id": "6fff0d19-6789-4fbb-b8c4-496d3507a7cf",
+                "resourcePath": "objects\\obj_light_controller\\obj_light_controller.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "97fe6e2c-e56d-4f08-b5d1-4c70b132c6ab",
             "Value": {
                 "id": "ef4f79e4-28d0-4d25-a5ca-5f63e425661e",
@@ -943,11 +1007,11 @@
             }
         },
         {
-            "Key": "9a330a1d-36a0-4f32-8245-d6bf92694d0b",
+            "Key": "9e00153c-b5e7-41ed-aa02-5ebbe9b70554",
             "Value": {
-                "id": "c5ddc174-b8c5-4cce-bde8-d38409ed71da",
-                "resourcePath": "scripts\\obj_sw_walldoor_toggle\\obj_sw_walldoor_toggle.yy",
-                "resourceType": "GMScript"
+                "id": "701a7cba-b57e-4135-afbd-fc9ddfb91c09",
+                "resourcePath": "views\\9e00153c-b5e7-41ed-aa02-5ebbe9b70554.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1335,6 +1399,14 @@
             }
         },
         {
+            "Key": "e71f40db-44f3-494a-b1c6-e1e9a1d7a2c2",
+            "Value": {
+                "id": "03b63039-c713-4b0a-bbaa-115492ee4663",
+                "resourcePath": "sprites\\spr_light_controller\\spr_light_controller.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e83c7f54-c3bd-4e1c-ace8-71573c573161",
             "Value": {
                 "id": "20017b86-6a5c-49b8-adc5-9fbb817125a9",
@@ -1475,14 +1547,18 @@
         "d25758e4-d1b6-4d20-aa61-92e9d15980f7",
         "5f2c7644-4e1f-40e5-9948-115dbc053a4e",
         "12f0b901-852d-454c-9ffd-cd17e7a92a27",
-        "9a330a1d-36a0-4f32-8245-d6bf92694d0b",
+        "270d3202-8d55-43bb-ac52-091e42245b7c",
         "34158fe5-878c-4a45-a1c9-a20f8fef8cad",
         "1c8afcff-4256-41d8-9d71-b32d3bdac3ba",
         "db82fe42-4ade-4bd5-be3b-447d6325f12f",
         "0972daca-f657-4195-9a30-09b628e0ccf1",
         "4ba8b79e-7b71-4daf-be59-22d5910d6d30",
         "19460f80-2226-4e5b-b2ec-b64665ad90c6",
-        "5bd2ad07-89aa-4a4f-a8eb-7d57393062ef"
+        "5bd2ad07-89aa-4a4f-a8eb-7d57393062ef",
+        "32c57372-f02f-4a29-b4c8-b034e9f06268",
+        "58383a0a-673f-45f2-8b79-5b3536104d8a",
+        "774e878b-3e82-45cd-a005-833b1330a04e",
+        "54fd6a6d-6f6d-43c4-aef1-e22c49a2a69f"
     ],
     "tutorial": ""
 }

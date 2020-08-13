@@ -1,6 +1,4 @@
-is_on = !is_on;
-
-if(is_on) {
+if(_power > 0) {
      door_part = instance_create_depth(x, y, depth-1 ,obj_part_walldoor);
      with(door_part) {
         image_xscale = other.image_xscale;
