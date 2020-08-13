@@ -7,19 +7,6 @@ var hor = false;
 var vert = false;
 
 //Inventory
-if(keyboard_check(ord("Z")) && canPress){
-	canPress = false;
-	if(inventoryDisplay == noone){
-		show_debug_message("Create");
-		inventoryDisplay = instance_create_depth(70,576,-1000000000, obj_inventory);
-		alarm[2] = 50;
-	}
-	else{
-		show_debug_message("Close")
-		inventoryDisplay.closeInventory = true;
-		alarm[1] = 50;
-	}
-}
 
 // Movement Keybinds
 if(keyboard_check(vk_shift)) speed_limit +=3;
