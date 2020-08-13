@@ -31,7 +31,11 @@
         "62266e78-c64e-4a50-9e7c-b172c243652b",
         "b3b8bdd7-2f7b-44c3-b41f-3991d4c6684d",
         "02243da2-1a4f-4d22-85d9-74998cbe32ca",
-        "84e83d67-36d9-4d5e-b0e6-8871b7f22549"
+        "84e83d67-36d9-4d5e-b0e6-8871b7f22549",
+        "d54e8e3c-6682-4d81-a62c-bfb3cb2ba582",
+        "6554813a-6f42-4517-a457-2fe83098044d",
+        "81b8e1d2-57d1-4fcf-b346-8a9d82d165c2",
+        "b095916f-71f0-4e21-955b-3a343bbad09c"
     ],
     "filterType": "GMSprite",
     "folderName": "Circuitry",

@@ -1,0 +1,1 @@
+obj_p_ct_wired_R_pressed();
