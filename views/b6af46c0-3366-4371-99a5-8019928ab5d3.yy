@@ -12,7 +12,8 @@
         "bc80cb22-da11-47ab-a8cf-cf5a58560675",
         "d1511e1e-1fa0-474b-b0c4-7623e9492da0",
         "be72dca4-ece8-41f0-998f-9b2d5525923d",
-        "046c23ba-bbad-4c1c-897d-0fb00cf4a4a1"
+        "046c23ba-bbad-4c1c-897d-0fb00cf4a4a1",
+        "554e3077-880b-47b3-9d10-516c51914004"
     ],
     "filterType": "GMObject",
     "folderName": "Circuitry",

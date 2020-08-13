@@ -1,23 +1,33 @@
 {
-    "id": "3dcffeba-c3be-4568-8b0c-3a018a43fded",
+    "id": "554e3077-880b-47b3-9d10-516c51914004",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_sw_walldoor",
+    "name": "obj_ct_controller",
     "eventList": [
         {
-            "id": "38719513-adca-46e0-8712-1a972ad669a1",
+            "id": "1656bfb9-bb29-496a-a73d-3bb6083f1d31",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 79,
+            "eventtype": 9,
+            "m_owner": "554e3077-880b-47b3-9d10-516c51914004"
+        },
+        {
+            "id": "74618078-aefe-4928-a939-d41e77111870",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 2,
-            "m_owner": "3dcffeba-c3be-4568-8b0c-3a018a43fded"
+            "eventtype": 0,
+            "m_owner": "554e3077-880b-47b3-9d10-516c51914004"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "7b68ff22-e748-4ae8-a4e4-815a36007abc",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -33,21 +43,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "59922c68-2378-4d90-ab0e-4ad93c0456bf",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0",
-            "varName": "door_part",
-            "varType": 0
-        },
-        {
-            "id": "93e384a2-8a07-4452-badf-24234fc55036",
+            "id": "b6506abd-336f-4668-afee-11ab765a72ae",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -62,6 +58,6 @@
         }
     ],
     "solid": false,
-    "spriteId": "62266e78-c64e-4a50-9e7c-b172c243652b",
-    "visible": true
+    "spriteId": "d54e8e3c-6682-4d81-a62c-bfb3cb2ba582",
+    "visible": false
 }

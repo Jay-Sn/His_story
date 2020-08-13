@@ -1,4 +1,4 @@
- ///@description Changing of characters
+  ///@description Changing of characters
 if(can_display <0){
 	can_display = 0;
 }

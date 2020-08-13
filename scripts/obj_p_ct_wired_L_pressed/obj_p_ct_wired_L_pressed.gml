@@ -1,0 +1,1 @@
+if(can_rotate) image_angle += 90;

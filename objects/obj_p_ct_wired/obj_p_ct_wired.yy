@@ -23,6 +23,36 @@
             "enumb": 0,
             "eventtype": 2,
             "m_owner": "11aa3341-f5c8-462f-9461-c124480ac9f3"
+        },
+        {
+            "id": "62e13695-c25d-4fde-ae60-c4c144f00fbd",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 64,
+            "eventtype": 8,
+            "m_owner": "11aa3341-f5c8-462f-9461-c124480ac9f3"
+        },
+        {
+            "id": "a04bab5a-a33f-4c78-8adf-b063f82f73f9",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 4,
+            "eventtype": 6,
+            "m_owner": "11aa3341-f5c8-462f-9461-c124480ac9f3"
+        },
+        {
+            "id": "6d878728-0052-4a07-99f2-ba46a8f7e2e2",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 5,
+            "eventtype": 6,
+            "m_owner": "11aa3341-f5c8-462f-9461-c124480ac9f3"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -172,6 +202,20 @@
             "value": "\"Item 0\"",
             "varName": "filter_rgb",
             "varType": 6
+        },
+        {
+            "id": "4f76e4b8-6382-4fb5-a994-4c496c70ca41",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "can_rotate",
+            "varType": 3
         }
     ],
     "solid": false,

@@ -1,0 +1,1 @@
+if(can_rotate) draw_sprite_ext(spr_rotatable, 0, x, y, image_xscale, image_yscale, image_angle, c_white, image_alpha);
