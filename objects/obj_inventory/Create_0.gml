@@ -1,62 +1,35 @@
-/// @description Insert description here
-// You can write your code in this editor
-depth = -1;
-scale = 1;
+initItems();
+
 show_inventory = false;
+held_item = "";
 
-inv_slots = 5;
-inv_slots_width = 5;
-inv_slots_height = 1;
+//dynamic inventory drawing
 
-selected_slot = 0;
-pickup_slot = -1; // will change from -1 to the item number
-// mouse pos on slot
-m_slotx = 0;
-m_sloty = 0;
+inv_slots = 10;
+cell_size = 128; //157
 
-spr_inv_UI = spr_inventory_UI;
-spr_inv_items = spr_inventory_items;
+outer_margin = 28; //px
+inner_margin = 14; //px
 
-roomHeight = room_height;
-roomWidth = room_width;
+invbox_topleft_x = outer_margin;
+invbox_topleft_y = room_height - (outer_margin + 2*inner_margin + cell_size);
+invbox_bottomright_x = room_width - outer_margin;
+invbox_bottomright_y = room_height - outer_margin;
 
-cell_size = 157;
+cell_spacing = cell_size + inner_margin;
 
-spr_inv_items_columns = sprite_get_width(spr_inv_items)/cell_size;
-//spr_inv_items_rows = sprite_get_width(spr_inv_items)/cell_size;
+var invbox_width = invbox_bottomright_x - invbox_topleft_x;
+max_inv_columns = floor((invbox_width - inner_margin)/cell_spacing);
+var leftover_width = invbox_width - (max_inv_columns * cell_spacing + inner_margin);
+leftover_margin = leftover_width/2;
+max_inv_rows = ceil(inv_slots/max_inv_columns);
 
-inv_x = roomWidth/50;
-inv_y = roomHeight/10 * 7;
+// Account for extra rows required
+invbox_topleft_y -= (max_inv_rows-1) * cell_spacing;
 
-slots_x = inv_x + (36*scale);
-slots_y = inv_y + (23*scale);
+// inventory init
+ds_inventory = ds_grid_create(max_inv_rows, max_inv_columns);
 
-x_buffer = 31;
-y_buffer = 16;
-
-inv_UI_width = 979;
-inv_UI_height = 201;
-
-
-//-----------Inventory
-//0 = ITEM
-
-ds_inventory = ds_grid_create(1,inv_slots);
-
-//Items
-enum item{
-	none		= 0,
-	pendant		= 1,
-	can			= 2,
-	canOpener	= 3,
-	openedCan	= 4,
-	height		= 5,
-}
-ds_inventory[# 0,0] = item.pendant;
-ds_inventory[# 0,1] = item.can;
-ds_inventory[# 0,2] = item.canOpener;
-//var yy = 0; repeat(inv_slots){
-//	ds_inventory[# 0,yy] = yy + 1;
-//	show_debug_message(ds_inventory[# 0,yy]);
-//	yy += 1;
-//}
+ds_grid_add(ds_inventory, 0, 0, "pendant");
+ds_grid_add(ds_inventory, 0, 1, "can");
+ds_grid_add(ds_inventory, 0, 2, "canopener");
