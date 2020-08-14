@@ -1223,6 +1223,14 @@
             }
         },
         {
+            "Key": "b9811a0c-6360-4927-82fe-bdde0a7d9535",
+            "Value": {
+                "id": "d056f53c-cfe0-4867-9f5d-46d9d372f36f",
+                "resourcePath": "objects\\obj_newChatbox\\obj_newChatbox.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "bbbf0d66-78ce-47b2-b93e-0aa4a001e26c",
             "Value": {
                 "id": "3f8e22ff-eaea-4f83-bdb8-d69332d48f33",
@@ -1347,6 +1355,14 @@
             "Value": {
                 "id": "0ddbb71b-53d4-423b-9289-45fad6995583",
                 "resourcePath": "scripts\\startingDialog\\startingDialog.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "d0eb687b-14c6-40bf-90d5-53e46159f9ca",
+            "Value": {
+                "id": "39673be1-3e81-453e-b3e7-7eba57fd3e77",
+                "resourcePath": "scripts\\calculateRows\\calculateRows.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1690,7 +1706,8 @@
         "32c57372-f02f-4a29-b4c8-b034e9f06268",
         "58383a0a-673f-45f2-8b79-5b3536104d8a",
         "774e878b-3e82-45cd-a005-833b1330a04e",
-        "54fd6a6d-6f6d-43c4-aef1-e22c49a2a69f"
+        "54fd6a6d-6f6d-43c4-aef1-e22c49a2a69f",
+        "d0eb687b-14c6-40bf-90d5-53e46159f9ca"
     ],
     "tutorial": ""
 }
