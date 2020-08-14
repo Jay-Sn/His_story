@@ -1,0 +1,1 @@
+chatbox_v2_init();
