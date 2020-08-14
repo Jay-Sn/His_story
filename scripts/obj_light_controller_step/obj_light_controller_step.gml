@@ -6,7 +6,7 @@ if (surface_exists(surf)) {
     
         // The following three lines set the 'dark' overlay
         draw_set_color(c_black);
-        draw_set_alpha(0.95);
+        draw_set_alpha(0.85);
         draw_rectangle(0, 0, room_width, room_height, 0);
 
         // Setting the blend mode to 'subtract' is what allows us to "cut holes" out of the overlay
