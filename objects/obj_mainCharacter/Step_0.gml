@@ -2,7 +2,7 @@
 //Keyboard movements
 depth = -y;
 // Variable Initialisation
-var speed_limit = SpeedLimit;
+var speed_limit = 7;
 var hor = false;
 var vert = false;
 
