@@ -1,57 +1,47 @@
-/// @description Drawing Inventory
 if(!show_inventory) exit;
 
-draw_sprite_part_ext(
-spr_inv_UI, 0, cell_size, 0, 
-inv_UI_width,inv_UI_height, 
-inv_x, inv_y,scale,scale, c_white,1);
+// draw inventory container
 
-//----------Inventory
+draw_rectangle_color(invbox_topleft_x, invbox_topleft_y, invbox_bottomright_x, invbox_bottomright_y, c_black, c_black, c_black, c_black, true);
+draw_rectangle_color(invbox_topleft_x+4, invbox_topleft_y+4, invbox_bottomright_x-4, invbox_bottomright_y-4, c_black, c_black, c_black, c_black, true);
+draw_rectangle_color(invbox_topleft_x+4, invbox_topleft_y+4, invbox_bottomright_x-4, invbox_bottomright_y-4, c_gray, c_gray, c_gray, c_gray, false);
 
-var ii, ix, iy, xx, yy, sx, sy, iitem,inv_grid;
-ii =0; ix = 0; iy = 0;inv_grid = ds_inventory;
-repeat(inv_slots){
-	//x,y location for slots
-	xx = slots_x + ((cell_size + x_buffer) *ix * scale) ;
-	yy = slots_y + ((cell_size + y_buffer) *iy * scale);
-	
-	//Item
-	iitem =inv_grid[# 0,ii];
-	sx = (iitem mod spr_inv_items_columns) *cell_size;
-	sy = (iitem div spr_inv_items_columns) *cell_size;
-	
-	//Draw Slot and Item
-	draw_sprite_part_ext(spr_inv_UI, 0, 0, 0, cell_size, cell_size, xx, yy, scale,scale, c_white, 1 );
-	
-	switch(ii){
-		case selected_slot:
-			if(iitem > 0) draw_sprite_part_ext(spr_inv_items, 0, sx,sy, cell_size,cell_size,xx, yy, scale,scale, c_white,.3);
-			gpu_set_blendmode(bm_add);
-			draw_sprite_part_ext(spr_inv_UI, 0, 0, 0, cell_size, cell_size, xx, yy, scale,scale, c_white, 1 );
-			gpu_set_blendmode(bm_normal);
+// draw cells
+var cell_x1 = outer_margin + inner_margin + leftover_margin;
+var cell_y1 = invbox_topleft_y + inner_margin;
+var cell_x2 = cell_x1 + cell_size;
+var cell_y2 = cell_y1 + cell_size;
+var usable_slots = inv_slots;
+
+for(r=0;r<max_inv_rows;r++) {
+	for(c=0;c<max_inv_columns;c++) {
+		if(usable_slots <= 0) {
+			// disable the extra spaces
+			draw_rectangle_color(cell_x1, cell_y1, cell_x2, cell_y2, c_ltgray, c_ltgray, c_ltgray, c_ltgray, false);
+		} else {
+			if(held_item != "" and r == held_origin_r and c == held_origin_c) {
+				draw_rectangle_color(cell_x1-2, cell_y1-2, cell_x2+2, cell_y2+2, c_yellow, c_yellow, c_yellow, c_yellow, false);
+			}
 			
-		break;
+			draw_rectangle_color(cell_x1, cell_y1, cell_x2, cell_y2, c_black, c_black, c_black, c_black, false);
+			
+			// draw item
+			var itm = ds_grid_get(ds_inventory, r, c);
+			var itmSpr = getItemSpr(itm);
+			
+			if(!is_undefined(itmSpr)) {
+				var itmSpr_x = floor((cell_x1 + cell_x2)/2);
+				var itmSpr_y = floor((cell_y1 + cell_y2)/2);
+				draw_sprite(itmSpr, 0, itmSpr_x, itmSpr_y);
+			}
+		}
 		
-		case pickup_slot:
-			if(iitem > 0) draw_sprite_part_ext(spr_inv_items, 0, sx,sy, cell_size,cell_size,xx, yy, scale,scale, c_white,.2);
-		
-		break;
-		
-		default:
-			if(iitem > 0) draw_sprite_part_ext(spr_inv_items, 0, sx,sy, cell_size,cell_size,xx, yy, scale,scale, c_white,1);
-		
-		break;
+		usable_slots -= 1;
+		cell_x1 += cell_spacing;
+		cell_x2 += cell_spacing;
 	}
-	//Increment
-	ii += 1;
-	ix = ii mod inv_slots_width;
-	iy = ii div inv_slots_width;
-}
-
-if(pickup_slot != -1){
-	//Item
-	iitem =inv_grid[# 0,pickup_slot];
-	sx = (iitem mod spr_inv_items_columns) *cell_size;
-	sy = (iitem div spr_inv_items_columns) *cell_size;
-	draw_sprite_part_ext(spr_inv_items, 0, sx,sy, cell_size,cell_size,mousex, mousey, scale,scale, c_white,.3);
+	cell_x1 = outer_margin + inner_margin + leftover_margin;
+	cell_x2 = cell_x1 + cell_size;
+	cell_y1 += cell_spacing;
+	cell_y2 += cell_spacing;
 }
