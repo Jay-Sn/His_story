@@ -2,7 +2,7 @@
     "id": "b9811a0c-6360-4927-82fe-bdde0a7d9535",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_newChatbox",
+    "name": "obj_textbox_legacy2",
     "eventList": [
         {
             "id": "a6a78a16-ead4-479f-a743-16c7f6c1d6b6",

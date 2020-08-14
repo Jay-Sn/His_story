@@ -1,1 +1,0 @@
-chatbox_v2_draw();

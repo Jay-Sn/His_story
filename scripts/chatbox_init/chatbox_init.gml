@@ -57,4 +57,4 @@ max_cols = floor(textbox_width/(char_width + char_spacing)) + 1; // Add back end
 // row init
 min_rows = 4;
 
-chatbox_v2_recalculate();
+chatbox_recalculate();

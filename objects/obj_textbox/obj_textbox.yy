@@ -1,38 +1,28 @@
 {
-    "id": "1b08e602-b997-4a04-b555-b72d928f41f2",
+    "id": "15b03b31-00c3-4c8f-8199-4a960e3d01e9",
     "modelName": "GMObject",
     "mvc": "1.0",
     "name": "obj_textbox",
     "eventList": [
         {
-            "id": "5bb73f14-483e-4205-9750-d38a1c1a344e",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 73,
-            "eventtype": 8,
-            "m_owner": "1b08e602-b997-4a04-b555-b72d928f41f2"
-        },
-        {
-            "id": "bb6259de-eea3-4062-8295-b8d2c64c6778",
+            "id": "e04ce18c-a640-4db4-90e5-9872974f01c2",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "1b08e602-b997-4a04-b555-b72d928f41f2"
+            "m_owner": "15b03b31-00c3-4c8f-8199-4a960e3d01e9"
         },
         {
-            "id": "dc19c93f-4e24-4c3f-b1ce-8fc044bfef73",
+            "id": "1bb510b8-f87c-4b4b-9c60-22215c6628fd",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "1b08e602-b997-4a04-b555-b72d928f41f2"
+            "enumb": 64,
+            "eventtype": 8,
+            "m_owner": "15b03b31-00c3-4c8f-8199-4a960e3d01e9"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -51,22 +41,7 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": [
-        {
-            "id": "fe65ef49-917f-40d7-bdaa-99fcbf9793e4",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "-100000000",
-            "varName": "depth",
-            "varType": 0
-        }
-    ],
+    "properties": null,
     "solid": false,
     "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true

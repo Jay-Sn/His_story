@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "0e22fc4e-0e4f-4cc0-8bab-5b2f6c0cc78d",
+            "Value": {
+                "id": "0e1cdd99-5182-48e3-862e-145e718f1c3b",
+                "resourcePath": "views\\0e22fc4e-0e4f-4cc0-8bab-5b2f6c0cc78d.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "0e8bb19a-2488-4a8a-a337-1835d13d4213",
             "Value": {
                 "id": "0cfdc2fe-64d0-4718-99e1-dec57386508a",
@@ -146,7 +154,7 @@
             "Key": "10da8b54-c3fb-4e1c-9e69-e204189c99a4",
             "Value": {
                 "id": "513e151e-b6bb-43ef-b17e-edd3c078ab8a",
-                "resourcePath": "scripts\\calculateRows\\calculateRows.yy",
+                "resourcePath": "scripts\\chatbox_calculateRows\\chatbox_calculateRows.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -186,7 +194,7 @@
             "Key": "15b03b31-00c3-4c8f-8199-4a960e3d01e9",
             "Value": {
                 "id": "22393581-21dc-4282-a1d6-7d3e1058361a",
-                "resourcePath": "objects\\obj_textbox_v2\\obj_textbox_v2.yy",
+                "resourcePath": "objects\\obj_textbox\\obj_textbox.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -218,7 +226,7 @@
             "Key": "1b08e602-b997-4a04-b555-b72d928f41f2",
             "Value": {
                 "id": "4a6d3cfb-f2c1-4cb6-ad5d-3074ceea45e7",
-                "resourcePath": "objects\\obj_textbox\\obj_textbox.yy",
+                "resourcePath": "objects\\obj_textbox_legacy\\obj_textbox_legacy.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -394,7 +402,7 @@
             "Key": "31cbd891-7c3d-41b3-91e4-8b8b7bc6e4e2",
             "Value": {
                 "id": "288d0cef-0c0e-4052-98a0-0ddd6a50eadb",
-                "resourcePath": "scripts\\chatbox_v2_recalculate\\chatbox_v2_recalculate.yy",
+                "resourcePath": "scripts\\chatbox_recalculate\\chatbox_recalculate.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -498,7 +506,7 @@
             "Key": "40016195-bab0-4f5f-ae98-631e61b2d43b",
             "Value": {
                 "id": "48781e56-2d7c-42ab-8503-741c5e02d955",
-                "resourcePath": "scripts\\chatbox_v2_init\\chatbox_v2_init.yy",
+                "resourcePath": "scripts\\chatbox_init\\chatbox_init.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -690,7 +698,7 @@
             "Key": "5870b466-d9af-46e5-882a-78d605c9c467",
             "Value": {
                 "id": "1fbe829c-bfef-47c5-a089-79657ff78962",
-                "resourcePath": "scripts\\chatbox_v2_draw\\chatbox_v2_draw.yy",
+                "resourcePath": "scripts\\chatbox_draw\\chatbox_draw.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1274,7 +1282,7 @@
             "Key": "b9811a0c-6360-4927-82fe-bdde0a7d9535",
             "Value": {
                 "id": "d056f53c-cfe0-4867-9f5d-46d9d372f36f",
-                "resourcePath": "objects\\obj_newChatbox\\obj_newChatbox.yy",
+                "resourcePath": "objects\\obj_textbox_legacy2\\obj_textbox_legacy2.yy",
                 "resourceType": "GMObject"
             }
         },

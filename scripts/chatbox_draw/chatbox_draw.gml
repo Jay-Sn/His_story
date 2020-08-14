@@ -44,3 +44,6 @@ for(i=1;i<=strlen;i++) {
 		recently_wrapped = true;
 	}
 }
+
+draw_set_color(c_yellow);
+draw_rectangle(textbox_topleft_x, textbox_topleft_y, textbox_bottomright_x, textbox_bottomright_y, true);
