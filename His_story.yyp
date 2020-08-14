@@ -143,6 +143,14 @@
             }
         },
         {
+            "Key": "10da8b54-c3fb-4e1c-9e69-e204189c99a4",
+            "Value": {
+                "id": "513e151e-b6bb-43ef-b17e-edd3c078ab8a",
+                "resourcePath": "scripts\\calculateRows\\calculateRows.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "11aa3341-f5c8-462f-9461-c124480ac9f3",
             "Value": {
                 "id": "8d173217-c813-4df5-861f-bbfeb4722e2a",
@@ -836,14 +844,6 @@
                 "id": "c9ec359b-b87b-490b-ae57-1110ce1f581d",
                 "resourcePath": "sprites\\spr_out_house\\spr_out_house.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "6f196493-deed-4021-a70d-aa19413638d0",
-            "Value": {
-                "id": "f6d9f678-d8df-4cce-a30b-f854286cf74f",
-                "resourcePath": "scripts\\calculateRows\\calculateRows.yy",
-                "resourceType": "GMScript"
             }
         },
         {
@@ -1755,13 +1755,10 @@
         "58383a0a-673f-45f2-8b79-5b3536104d8a",
         "774e878b-3e82-45cd-a005-833b1330a04e",
         "54fd6a6d-6f6d-43c4-aef1-e22c49a2a69f",
-        "097d49b8-6511-4d65-95bb-d67e42e7dd83",
-        "ecc4718d-8cdb-4532-b8ba-34733bc0d95e",
-        "94265db9-e71a-4e7a-a108-bee4f72f4258",
         "40016195-bab0-4f5f-ae98-631e61b2d43b",
-        "6f196493-deed-4021-a70d-aa19413638d0",
         "31cbd891-7c3d-41b3-91e4-8b8b7bc6e4e2",
-        "5870b466-d9af-46e5-882a-78d605c9c467"
+        "5870b466-d9af-46e5-882a-78d605c9c467",
+        "10da8b54-c3fb-4e1c-9e69-e204189c99a4"
     ],
     "tutorial": ""
 }

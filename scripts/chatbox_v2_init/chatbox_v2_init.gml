@@ -1,11 +1,11 @@
-text = "This is an example string.\nThis is a second line";
+text = "jason help me survive this pls thank\nBut it refused.";
 character_sprite = spr_chat_mc;
 
-var outer_x_margin = 28;
-var outer_y_margin = 28;
+outer_x_margin = 28;
+outer_y_margin = 28;
 
-var inner_x_margin = 14;
-var inner_y_margin = 14;
+inner_x_margin = 14;
+inner_y_margin = 14;
 
 box_topleft_x = outer_x_margin;
 box_topleft_y = room_height - (outer_y_margin + 2 * inner_y_margin); // - content height
@@ -29,14 +29,14 @@ if(character_sprite != undefined) {
 	character_height = sprite_get_height(character_sprite);
 	
 	added_character_x_margin = character_width + inner_x_margin;
-	character_y = textbox_topleft_y + character_height * 1.5;
+	character_y = textbox_bottomright_y;
 	
 	if(character_sprite == spr_chat_mc) {
-		textbox_topleft_x += added_character_x_margin;
 		character_x = textbox_topleft_x;
+		textbox_topleft_x += added_character_x_margin;
 	} else {
-		textbox_bottomright_x -= added_character_x_margin;
 		character_x = textbox_bottomright_x;
+		textbox_bottomright_x -= added_character_x_margin;
 	}
 }
 
@@ -46,12 +46,15 @@ char_width = string_width("X");
 char_height = string_height("X");
 
 // spacings
-char_spacing = 3;
-line_spacing = char_height * 0.5;
+char_spacing = 0;
+line_spacing = -0.1;
 
 // calculate max cols
 var textbox_width = textbox_bottomright_x - textbox_topleft_x;
 textbox_width -= char_width; // Account for extra character at end
 max_cols = floor(textbox_width/(char_width + char_spacing)) + 1; // Add back end character
+
+// row init
+min_rows = 4;
 
 chatbox_v2_recalculate();
