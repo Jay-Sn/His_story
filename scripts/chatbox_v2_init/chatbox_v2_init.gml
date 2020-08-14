@@ -17,7 +17,7 @@ box_bottomright_y = room_height - outer_y_margin;
 // Default textbox coordinates
 
 textbox_topleft_x = box_topleft_x + inner_x_margin;
-textbox_topleft_y = box_topleft_y - inner_y_margin; // - content height
+textbox_topleft_y = box_topleft_y + inner_y_margin; // - content height
 textbox_bottomright_x = box_bottomright_x - inner_x_margin;
 textbox_bottomright_y = box_bottomright_y - inner_y_margin;
 
