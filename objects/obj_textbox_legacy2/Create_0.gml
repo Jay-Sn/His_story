@@ -39,7 +39,7 @@ if(character != noone){
 
 max_char_col = floor(inner_box_width / (char_width + char_spacing));
 
-n_lines = max(min_lines,calculateRows(text,max_char_col));
+n_lines = max(min_lines, chatbox_calculateRows(text,max_char_col));
 posY = room_height - y_margin - (inner_y_margin * 2) - (n_lines * (char_height+line_spacing));
 inner_posY = posY + inner_y_margin;
 box_height = (room_height - y_margin) - posY;

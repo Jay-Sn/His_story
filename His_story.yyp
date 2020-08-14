@@ -1415,14 +1415,6 @@
             }
         },
         {
-            "Key": "d0eb687b-14c6-40bf-90d5-53e46159f9ca",
-            "Value": {
-                "id": "39673be1-3e81-453e-b3e7-7eba57fd3e77",
-                "resourcePath": "scripts\\calculateRows\\calculateRows.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "d13f0363-3027-456a-a768-5390a37ae19e",
             "Value": {
                 "id": "74b7a769-0d3f-4f80-9af9-7e36f0dcaf4d",
