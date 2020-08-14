@@ -1,1 +1,1 @@
-chatbox_init();
+textbox_init();

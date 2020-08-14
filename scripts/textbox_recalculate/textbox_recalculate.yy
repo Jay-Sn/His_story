@@ -1,8 +1,8 @@
 {
-    "id": "5870b466-d9af-46e5-882a-78d605c9c467",
+    "id": "31cbd891-7c3d-41b3-91e4-8b8b7bc6e4e2",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "chatbox_draw",
+    "name": "textbox_recalculate",
     "IsCompatibility": false,
     "IsDnD": false
 }

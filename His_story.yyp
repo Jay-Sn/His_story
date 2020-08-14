@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "0da1974e-b7d3-4089-a335-7d08c27b0377",
+            "Value": {
+                "id": "eff9286b-5ba1-4bf4-9a3b-68e19e37a9eb",
+                "resourcePath": "objects\\obj_p_interactionObj\\obj_p_interactionObj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0e22fc4e-0e4f-4cc0-8bab-5b2f6c0cc78d",
             "Value": {
                 "id": "0e1cdd99-5182-48e3-862e-145e718f1c3b",
@@ -154,7 +162,15 @@
             "Key": "10da8b54-c3fb-4e1c-9e69-e204189c99a4",
             "Value": {
                 "id": "513e151e-b6bb-43ef-b17e-edd3c078ab8a",
-                "resourcePath": "scripts\\chatbox_calculateRows\\chatbox_calculateRows.yy",
+                "resourcePath": "scripts\\textbox_calculateRows\\textbox_calculateRows.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "119c4da0-34a0-4656-b982-6511c8c38429",
+            "Value": {
+                "id": "c1843090-0710-4eb0-a34d-6e88f76d85c1",
+                "resourcePath": "scripts\\new_textbox\\new_textbox.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -402,7 +418,7 @@
             "Key": "31cbd891-7c3d-41b3-91e4-8b8b7bc6e4e2",
             "Value": {
                 "id": "288d0cef-0c0e-4052-98a0-0ddd6a50eadb",
-                "resourcePath": "scripts\\chatbox_recalculate\\chatbox_recalculate.yy",
+                "resourcePath": "scripts\\textbox_recalculate\\textbox_recalculate.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -420,6 +436,14 @@
                 "id": "56215d5d-15b8-4aed-8f38-66d21605c172",
                 "resourcePath": "sprites\\spr_camp\\spr_camp.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "32a5cfb5-35fb-4cf3-a27a-5b008977e3b4",
+            "Value": {
+                "id": "453eeee4-c638-42dc-b7e9-45853ac0d66a",
+                "resourcePath": "objects\\obj_interaction\\obj_interaction.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -460,6 +484,14 @@
                 "id": "9f470eb9-3965-4601-9938-9207605479e0",
                 "resourcePath": "objects\\obj_wd_I_brkn_L\\obj_wd_I_brkn_L.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "3647d5d6-f42f-4cd7-87c2-f63572ab567e",
+            "Value": {
+                "id": "260b02a2-466b-4496-99da-d9bed8e59849",
+                "resourcePath": "views\\3647d5d6-f42f-4cd7-87c2-f63572ab567e.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -506,7 +538,7 @@
             "Key": "40016195-bab0-4f5f-ae98-631e61b2d43b",
             "Value": {
                 "id": "48781e56-2d7c-42ab-8503-741c5e02d955",
-                "resourcePath": "scripts\\chatbox_init\\chatbox_init.yy",
+                "resourcePath": "scripts\\textbox_init\\textbox_init.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -698,7 +730,7 @@
             "Key": "5870b466-d9af-46e5-882a-78d605c9c467",
             "Value": {
                 "id": "1fbe829c-bfef-47c5-a089-79657ff78962",
-                "resourcePath": "scripts\\chatbox_draw\\chatbox_draw.yy",
+                "resourcePath": "scripts\\textbox_draw\\textbox_draw.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -828,6 +860,14 @@
                 "id": "f46d6341-6402-4e69-aca9-a910ca205b97",
                 "resourcePath": "sprites\\spr_inventory_UI\\spr_inventory_UI.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6911ab8a-e6d0-4f4f-8fb5-ce168560b71f",
+            "Value": {
+                "id": "831cf3ca-365d-4e29-9b95-d7c602e955c5",
+                "resourcePath": "objects\\obj_choice\\obj_choice.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1758,7 +1798,8 @@
         "40016195-bab0-4f5f-ae98-631e61b2d43b",
         "31cbd891-7c3d-41b3-91e4-8b8b7bc6e4e2",
         "5870b466-d9af-46e5-882a-78d605c9c467",
-        "10da8b54-c3fb-4e1c-9e69-e204189c99a4"
+        "10da8b54-c3fb-4e1c-9e69-e204189c99a4",
+        "119c4da0-34a0-4656-b982-6511c8c38429"
     ],
     "tutorial": ""
 }

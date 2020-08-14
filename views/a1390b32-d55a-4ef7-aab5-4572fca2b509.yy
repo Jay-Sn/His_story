@@ -9,7 +9,7 @@
         "15b03b31-00c3-4c8f-8199-4a960e3d01e9"
     ],
     "filterType": "GMObject",
-    "folderName": "Chatbox",
+    "folderName": "Textbox",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

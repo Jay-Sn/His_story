@@ -1,5 +1,6 @@
-text = "jason help me survive this pls thank\nBut it refused.";
-character_sprite = spr_chat_mc;
+text = "";
+character_sprite = undefined;
+subimg = 0;
 
 outer_x_margin = 28;
 outer_y_margin = 28;
@@ -57,4 +58,11 @@ max_cols = floor(textbox_width/(char_width + char_spacing)) + 1; // Add back end
 // row init
 min_rows = 4;
 
-chatbox_recalculate();
+// character by character loading
+current_max_strlen = 1;
+draw_text_speed = 1;
+
+// highlights
+highlights = array_create(0);
+
+textbox_recalculate();

@@ -17,6 +17,11 @@ for(i=0;i<strlen;i++) {
 				cols = 0;
 			} else recently_wrapped = false;
 			break;
+		case " ":
+			if(!recently_wrapped) {
+				cols += 1;
+			} else recently_wrapped = false;
+			break;
 		default:
 			cols += 1;
 			recently_wrapped = false;

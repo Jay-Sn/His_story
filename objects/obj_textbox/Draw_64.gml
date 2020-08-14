@@ -1,1 +1,1 @@
-chatbox_draw();
+textbox_draw();

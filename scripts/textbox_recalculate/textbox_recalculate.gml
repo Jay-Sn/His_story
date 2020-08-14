@@ -1,5 +1,5 @@
 // calculate content height
-var rows = max(min_rows, chatbox_calculateRows(text, max_cols));
+var rows = max(min_rows, textbox_calculateRows(text, max_cols));
 var content_height = (rows-1) * (char_height + line_spacing) + char_height;
 
 // Add in content heights
