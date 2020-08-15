@@ -30,6 +30,11 @@ with(textbox) {
 		}
 	}
 	
+	// calculate max cols
+	var textbox_width = textbox_bottomright_x - textbox_topleft_x;
+	textbox_width -= char_width; // Account for extra character at end
+	max_cols = floor(textbox_width/(char_width + char_spacing)) + 1; // Add back end character
+	
 	textbox_recalculate();
 }
 

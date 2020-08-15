@@ -103,8 +103,8 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "undefined",
-            "varName": "prerequisite_scr",
+            "value": "noone",
+            "varName": "prereq_scr_ind",
             "varType": 4
         },
         {
@@ -117,8 +117,8 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "undefined",
-            "varName": "ontrigger_scr",
+            "value": "noone",
+            "varName": "ontrigger_scr_ind",
             "varType": 4
         },
         {
@@ -131,9 +131,9 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0",
+            "value": "noone",
             "varName": "prereq_fail_interaction",
-            "varType": 0
+            "varType": 4
         }
     ],
     "solid": false,

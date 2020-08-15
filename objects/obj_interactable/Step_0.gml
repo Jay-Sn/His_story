@@ -28,12 +28,12 @@ if(is_choosing) {
 		}
 		is_choosing = false;
 		
-		load_next_interaction();
+		load_next_interaction(interaction);
 	}
 }
 else if(keyboard_check_pressed(ord("X"))) {
 	if(!place_meeting(x, y, obj_mainCharacter)) exit;
 	
 	obj_mainCharacter.SpeedLimit = 0;
-	load_next_interaction();
+	load_next_interaction(interaction);
 }
