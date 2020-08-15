@@ -60,7 +60,7 @@ min_rows = 4;
 
 // character by character loading
 current_max_strlen = 1;
-draw_text_speed = 1;
+draw_text_speed = 0.5;
 
 // highlights
 highlights = array_create(0);

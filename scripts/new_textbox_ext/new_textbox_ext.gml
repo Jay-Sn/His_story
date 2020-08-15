@@ -1,12 +1,18 @@
 var _chara_sprite = argument0;
 var _subimg = argument1;
 var _text = argument2;
+var _textspeed = argument3;
+var _char_spacing = argument4;
+var _sansmode = argument5;
 
 var textbox = instance_create_depth(x, y, depth, obj_textbox);
 with(textbox) {
 	character_sprite = _chara_sprite;
 	subimg = _subimg;
 	text = _text;
+	draw_text_speed = _textspeed;
+	char_spacing = _char_spacing;
+	sansmode = _sansmode;
 	
 	if(character_sprite != undefined) {
 		character_width = sprite_get_width(character_sprite);

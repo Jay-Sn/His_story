@@ -48,7 +48,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "0",
-            "varName": "nextInteractions",
+            "varName": "next_interactions",
             "varType": 6
         }
     ],

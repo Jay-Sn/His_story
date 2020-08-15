@@ -8,7 +8,7 @@ var rows = 1;
 
 var recently_wrapped = false;
 
-for(i=0;i<strlen;i++) {
+for(var i=0;i<strlen;i++) {
 	char = string_copy(text, i, 1);
 	switch(char) {
 		case "\n":

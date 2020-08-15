@@ -58,8 +58,14 @@ for(i=1;i<=strlen;i++) {
 		recently_wrapped = true;
 	}
 }
-
 current_max_strlen += draw_text_speed;
+
+if(sansmode and strlen > prev_strlen) {
+	var sounds = array_create(3);
+	audio_play_sound(that_sound_clipped, 1, false);
+}
+
+prev_strlen = strlen
 
 //draw_set_color(c_yellow);
 //draw_rectangle(textbox_topleft_x, textbox_topleft_y, textbox_bottomright_x, textbox_bottomright_y, true);
