@@ -81,7 +81,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "0",
-            "varName": "alpha",
+            "varName": "image_alpha",
             "varType": 0
         },
         {
