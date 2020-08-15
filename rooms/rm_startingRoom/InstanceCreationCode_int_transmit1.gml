@@ -1,1 +1,1 @@
-linked_objs[0] = pendant_interactible;
+linked_objs[0] = room_light;
