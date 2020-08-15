@@ -9,3 +9,5 @@ speed_increment = 2;
 hspd = 0;
 vspd = 0;
 SpeedLimit = 7;
+
+inventory = instance_create_depth(x, y, depth, obj_inventory);

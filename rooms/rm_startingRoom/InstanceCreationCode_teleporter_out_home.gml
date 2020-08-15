@@ -1,5 +1,5 @@
 GotoRoom = rm_out_house;
-targetX = 330;
-targetY = 430;
+targetX = 332;
+targetY = 490;
 scale = 0.5;
 speedLimit = 3;

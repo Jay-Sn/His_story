@@ -1,0 +1,1 @@
+newDialogLine(1, "It's too dark...", spr_chat_mc,2)
