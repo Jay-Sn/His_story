@@ -1,1 +1,1 @@
-obj_wd_interactible_transmitter_tick();
+ obj_wd_interactible_transmitter_tick();
