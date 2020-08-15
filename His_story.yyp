@@ -823,6 +823,14 @@
             }
         },
         {
+            "Key": "5bd6d3d6-0223-47de-ad40-5c1acdcc57e0",
+            "Value": {
+                "id": "e2eb4855-bbf8-411c-af5a-113989368578",
+                "resourcePath": "rooms\\rm_startingRoom\\rm_startingRoom.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "5c0a5141-a79f-49ef-841e-8553111379a4",
             "Value": {
                 "id": "57a60cac-e407-4ac6-b931-4f55bdd5c47e",
@@ -1962,9 +1970,9 @@
         "25aca55c-4d03-477c-b21b-071ba8e7eff8",
         "119c4da0-34a0-4656-b982-6511c8c38429",
         "ee85426f-c881-4b0f-8ecc-059847bc92c4",
+        "2552c716-893a-41a7-b80e-5ab7bc8dec36",
         "fa774dd6-7519-4a67-a71a-ce653d0573d6",
-        "3a138026-1717-4482-8fb9-3970d3ca9014",
-        "2552c716-893a-41a7-b80e-5ab7bc8dec36"
+        "3a138026-1717-4482-8fb9-3970d3ca9014"
     ],
     "tutorial": ""
 }
