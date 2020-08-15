@@ -6,4 +6,5 @@ var item = undefined;
 if(ds_map_exists(itemCombinationMap, item_a+"+"+item_b))			item = ds_map_find_value(itemCombinationMap, item_a+"+"+item_b);
 else if(ds_map_exists(itemCombinationMap, item_b+"+"+item_a))		item = ds_map_find_value(itemCombinationMap, item_b+"+"+item_a);
 
+openedCan = true;
 return item;

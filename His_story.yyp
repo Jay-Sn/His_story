@@ -423,6 +423,14 @@
             }
         },
         {
+            "Key": "29cbcd5e-513e-4db1-ad7c-fb2419667fe4",
+            "Value": {
+                "id": "9d8fb5d5-513b-4a24-9f10-df8cec573c24",
+                "resourcePath": "scripts\\nextRoom\\nextRoom.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "2a0acdf6-994e-47b9-81cc-d3e58c088a21",
             "Value": {
                 "id": "7ea732f2-7c1b-4e5b-b7b9-4330c2b8ddf1",
@@ -2159,7 +2167,8 @@
         "f7bddeed-2575-4a8e-ae06-08a45ab53ddb",
         "c08dcf9b-1fe8-4c90-bace-449ff0ee50d5",
         "0d44b966-89ab-42c6-9437-e2b8e2b97c06",
-        "f97f7e65-d73a-41b0-a1c0-05a39e2a261d"
+        "f97f7e65-d73a-41b0-a1c0-05a39e2a261d",
+        "29cbcd5e-513e-4db1-ad7c-fb2419667fe4"
     ],
     "tutorial": ""
 }
