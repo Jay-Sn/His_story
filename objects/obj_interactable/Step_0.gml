@@ -1,4 +1,4 @@
-if(!is_enabled) exit;
+if(!is_enabled or !can_continue) exit;
 
 if(is_choosing) {
 	if (keyboard_check_pressed(vk_down)) {

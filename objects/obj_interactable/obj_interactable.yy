@@ -23,6 +23,16 @@
             "enumb": 0,
             "eventtype": 3,
             "m_owner": "351ab732-a70d-413c-a049-a3b931ad2239"
+        },
+        {
+            "id": "255d0281-4a0f-4994-9a35-b30e4ee2b357",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 2,
+            "m_owner": "351ab732-a70d-413c-a049-a3b931ad2239"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -124,6 +134,34 @@
             "resourceFilter": 1023,
             "value": "0",
             "varName": "is_choosing",
+            "varType": 3
+        },
+        {
+            "id": "f848e180-a288-4d39-b7e0-8f081c026d7a",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "room_speed*1",
+            "varName": "continue_delay",
+            "varType": 4
+        },
+        {
+            "id": "0fe5b8c6-d33b-44d2-8bc4-a04bea6c9d5d",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "True",
+            "varName": "can_continue",
             "varType": 3
         }
     ],

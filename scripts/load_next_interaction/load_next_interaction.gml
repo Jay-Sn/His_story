@@ -4,6 +4,9 @@ if(interaction != noone) {
 	if(objType == "obj_interaction") {
 		bound_textbox = new_textbox_ext(interaction.chara_sprite, interaction.subimg, interaction.text, interaction.draw_text_speed, interaction.char_spacing, interaction.sansmode);
 		interaction = interaction.next_interaction;
+		
+		can_continue = false;
+		alarm_set(0, continue_delay);
 	} else if(objType == "obj_choice") {
 		bound_textbox = new_textbox(undefined, 0, "");
 			
