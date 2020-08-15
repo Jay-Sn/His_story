@@ -92,6 +92,48 @@
             "value": "0",
             "varName": "sansmode",
             "varType": 3
+        },
+        {
+            "id": "068f75b9-1c52-4bec-ae20-0be0be560817",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "undefined",
+            "varName": "prerequisite_scr",
+            "varType": 4
+        },
+        {
+            "id": "68b978c4-0bd8-484e-8286-bf826c43675f",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "undefined",
+            "varName": "ontrigger_scr",
+            "varType": 4
+        },
+        {
+            "id": "70d85687-95c6-444b-8c60-e982d81b182e",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "prereq_fail_interaction",
+            "varType": 0
         }
     ],
     "solid": false,

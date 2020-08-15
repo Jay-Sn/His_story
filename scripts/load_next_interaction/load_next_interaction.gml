@@ -2,6 +2,12 @@ if(instance_exists(bound_textbox)) instance_destroy(bound_textbox);
 if(interaction != noone) {
 	var objType = object_get_name(interaction.object_index);
 	if(objType == "obj_interaction") {
+		
+		// prerequisite check
+		if(!is_undefined(prerequisite_scr)) {
+			
+		}
+		
 		bound_textbox = new_textbox_ext(interaction.chara_sprite, interaction.subimg, interaction.text, interaction.draw_text_speed, interaction.char_spacing, interaction.sansmode);
 		interaction = interaction.next_interaction;
 		

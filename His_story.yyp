@@ -647,6 +647,14 @@
             }
         },
         {
+            "Key": "42f44f3c-2e2e-44b7-bcbf-3958481c63d4",
+            "Value": {
+                "id": "6554cbc0-a755-4aef-a155-1e3434a9a254",
+                "resourcePath": "objects\\obj_global_flags\\obj_global_flags.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "467fde92-f7ff-4024-ae96-b6dca65e36b8",
             "Value": {
                 "id": "b49c91aa-3dfd-444f-9aa6-a98d4d304e91",
