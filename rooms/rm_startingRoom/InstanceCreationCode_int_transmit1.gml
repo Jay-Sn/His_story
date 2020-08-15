@@ -1,1 +1,0 @@
-linked_objs[0] = pendant_interactible;
