@@ -855,6 +855,14 @@
             }
         },
         {
+            "Key": "744a3068-fd16-4c8b-ac67-fe69d02c1826",
+            "Value": {
+                "id": "7e5e88aa-bc64-4d9a-93ca-74ead9086a4b",
+                "resourcePath": "sprites\\spr_caveEntrance\\spr_caveEntrance.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "74de83a8-c8aa-465f-8ef3-deab37b4bd17",
             "Value": {
                 "id": "189ff353-b8f0-4dab-86c4-02c49bed6c28",
@@ -1204,6 +1212,14 @@
                 "id": "66ae5602-d960-474e-a2b1-3f76442cc5e2",
                 "resourcePath": "scripts\\checkItemCombining\\checkItemCombining.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "a914b159-1816-4cd9-8a2f-9dcb685a4b34",
+            "Value": {
+                "id": "f13a73d8-1af4-42fa-ac0b-22b302775e1d",
+                "resourcePath": "objects\\obj_caveEntrance\\obj_caveEntrance.yy",
+                "resourceType": "GMObject"
             }
         },
         {

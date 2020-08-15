@@ -19,7 +19,8 @@
         "f08d2fb8-c7ff-40e7-9bdd-a53eb630588f",
         "9ebbe249-4017-4bee-b926-27d2e2ece818",
         "6db37d8f-04f1-4969-95c1-e7112e078ae3",
-        "17cf038f-42de-4147-b5b9-8dd8c9facfe0"
+        "17cf038f-42de-4147-b5b9-8dd8c9facfe0",
+        "744a3068-fd16-4c8b-ac67-fe69d02c1826"
     ],
     "filterType": "GMSprite",
     "folderName": "Background Sprites",
