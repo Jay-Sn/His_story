@@ -1,1 +1,1 @@
-linked_objs[0] = too_dark;
+//linked_objs[0] = too_dark;

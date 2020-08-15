@@ -30,6 +30,6 @@ invbox_topleft_y -= (max_inv_rows-1) * cell_spacing;
 // inventory init
 ds_inventory = ds_grid_create(max_inv_rows, max_inv_columns);
 
-ds_grid_add(ds_inventory, 0, 0, "pendant");
-ds_grid_add(ds_inventory, 0, 1, "can");
-ds_grid_add(ds_inventory, 0, 2, "canopener");
+//ds_grid_add(ds_inventory, 0, 0, "pendant");
+//ds_grid_add(ds_inventory, 0, 1, "can");
+//ds_grid_add(ds_inventory, 0, 2, "canopener");

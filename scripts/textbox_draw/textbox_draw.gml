@@ -1,4 +1,4 @@
-// draw background box
+ // draw background box
 draw_rectangle_color(box_topleft_x, box_topleft_y, box_bottomright_x, box_bottomright_y, c_black, c_black, c_black, c_black, true);
 draw_rectangle_color(box_topleft_x, box_topleft_y+1, box_bottomright_x, box_bottomright_y, c_gray, c_gray, c_gray, c_gray, false);
 

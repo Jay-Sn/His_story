@@ -1,4 +1,4 @@
-var _chara_sprite = argument0;
+ var _chara_sprite = argument0;
 var _subimg = argument1;
 var _text = argument2;
 var _textspeed = argument3;

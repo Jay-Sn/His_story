@@ -9,5 +9,5 @@ speed_increment = 2;
 hspd = 0;
 vspd = 0;
 SpeedLimit = 7;
-
+audio_play_sound(sd_starting_ost, 1, true);
 inventory = instance_create_depth(x, y, depth, obj_inventory);
