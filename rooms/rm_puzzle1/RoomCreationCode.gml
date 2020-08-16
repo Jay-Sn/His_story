@@ -1,0 +1,1 @@
+obj_collidable.visible = true;
