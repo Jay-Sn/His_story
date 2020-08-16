@@ -1,1 +1,1 @@
-return room_light2._power <= 0
+return room_light2._power <= 0 or room_light._power <= 0
