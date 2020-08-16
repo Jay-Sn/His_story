@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(keyboard_check_pressed(ord("Z"))){ show_inventory = !show_inventory; }
+if(keyboard_check_pressed(ord("I"))){ show_inventory = !show_inventory; }
 
 //Get mouse position
 if(!show_inventory) exit;
