@@ -1,4 +1,4 @@
-if(!openedCan){
+if(!openedCan and !canopener){
 	//Default Conversation
 	var interaction1 = new_interaction(spr_chat_oldman, 0, "A Child? and that Pendant... Nevermind...");
 	var interaction2 = new_interaction(spr_chat_oldman, 0, "What are you doing this far from civilization?.");
@@ -40,7 +40,7 @@ if(!openedCan){
 	var interaction30 = new_interaction_ext(spr_chat_mc, 1, "Can I say no-",0.1,0,false);
 	var interaction31 = new_interaction_w_scr(spr_chat_oldman, 2, "Here you go! A can opener, I just thought you'd need it",noone,giveOpener);
 	var interaction32 = new_interaction(spr_chat_mc, 0, "Alright.");
-	var interaction33 = new_interaction(spr_chat_mc, 0, "Now where can I find food");
+	var interaction33 = new_interaction(spr_chat_mc, 0, "Now where can I find food...?");
 	//Questions
 	var interaction9 = new_choice();
 	interaction9.choices[0] = "Tell Him Your Name!";
@@ -96,14 +96,23 @@ if(!openedCan){
 	interaction30.next_interaction = interaction31;
 	interaction31.next_interaction = interaction32;
 	interaction32.next_interaction = interaction33;
-	interaction_aft_reset = interaction1;
-} else{
-	var interaction1 = new_interaction(spr_chat_oldman, 1, "Oh I see you got the food");
+	interaction_aft_reset = interaction33;
+	exit
+} else if (openedCan or ds_grid_value_exists(obj_mainCharacter.inventory.ds_inventory, 0, 0, 0, 5, "can") and canopener) {
+	var interaction1 = new_interaction_w_scr(spr_chat_oldman, 1, "Oh I see you got the food", checkOpenedCan, removeOpenedCan);
 	var interaction2 = new_interaction(spr_chat_oldman, 1, "While you were getting the food I went ahead and cleared the way");
 	var interaction3 = new_interaction(spr_chat_oldman, 2, "Now we are even!");
+	var interaction4 = new_interaction(spr_chat_mc, 0, "I've got a can and a can opener... now i just need to combine them...");
 	
-	openedCave = true;  
+	openedCave = true;
 	interaction = interaction1;
 	interaction1.next_interaction = interaction2;
+	interaction1.prereq_fail_interaction = interaction4;
 	interaction2.next_interaction = interaction3;
+	interaction_aft_reset = interaction3;
+} else {
+	var interaction1 = new_interaction(spr_chat_mc, 0, "Now where can I find food...?");
+	
+	interaction = interaction1;
+	interaction_aft_reset = interaction1;
 }

@@ -9,22 +9,22 @@ var vert = false;
 // Movement Keybinds
 if(keyboard_check(vk_shift)) speed_limit +=3;
 
-if(keyboard_check(vk_left) and SpeedLimit > 0) {
+if(keyboard_check(vk_left) and !is_interacting) {
     hspd -=speed_increment;
 	image_index = 1;
     hor = true;
 }
-else if(keyboard_check(vk_right) and SpeedLimit > 0) {
+else if(keyboard_check(vk_right) and !is_interacting) {
     hspd +=speed_increment;
 	image_index = 3;
     hor = true;
 }
-if(keyboard_check(vk_up) and SpeedLimit > 0) {
+if(keyboard_check(vk_up) and !is_interacting) {
     vspd -=speed_increment;
 	image_index = 2;
     vert = true;
 }
-else if(keyboard_check(vk_down) and SpeedLimit > 0) {
+else if(keyboard_check(vk_down) and !is_interacting) {
     vspd +=speed_increment;
 	image_index = 0;
     vert = true;

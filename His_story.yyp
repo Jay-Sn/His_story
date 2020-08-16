@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "00308a2d-f74c-4ec2-8adb-f6458a59aedb",
+            "Value": {
+                "id": "0b9f80cc-b878-4588-a405-456641822108",
+                "resourcePath": "scripts\\addItem\\addItem.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "0191aa57-8a41-4636-80f8-6a3cde97cf67",
             "Value": {
                 "id": "946c5bd9-d56c-4fb2-bf99-aaa649e93265",
@@ -1015,6 +1023,14 @@
             }
         },
         {
+            "Key": "6983b4b6-b9dc-48eb-810a-8d0a8f524acc",
+            "Value": {
+                "id": "055901fb-6394-4e80-8ccd-c752292ae461",
+                "resourcePath": "scripts\\removeItem\\removeItem.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "6a22502a-2d44-437f-9baf-3bf985253d90",
             "Value": {
                 "id": "4cd5d875-e53a-48c5-a406-d4c883edf1b4",
@@ -1311,6 +1327,14 @@
             }
         },
         {
+            "Key": "91798a78-6880-4501-907d-32ef94de2b36",
+            "Value": {
+                "id": "3b150cab-245c-454b-9d03-91ab702f34b3",
+                "resourcePath": "scripts\\checkOpenedCan\\checkOpenedCan.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "92d7a2c7-6fb5-4ca2-91bf-7b4c88d254c9",
             "Value": {
                 "id": "3d95ca12-1281-4e10-9379-96fd1e66a9f3",
@@ -1508,6 +1532,14 @@
                 "id": "cc2f62c7-024a-4d72-8c41-e062c1faa5f9",
                 "resourcePath": "views\\a93d9d45-c8e8-4683-b044-434900356efb.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "aacff4d7-96a0-432c-8aa3-32ba8b94cdb9",
+            "Value": {
+                "id": "11b1cab9-d6cc-4ece-9167-29b73276735a",
+                "resourcePath": "scripts\\removeOpenedCan\\removeOpenedCan.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -2039,6 +2071,14 @@
             }
         },
         {
+            "Key": "f14b03cd-e986-4754-84df-e2f1f7749585",
+            "Value": {
+                "id": "88e0a0e7-9209-499a-a064-c19061b3da06",
+                "resourcePath": "scripts\\checkDoorOpen\\checkDoorOpen.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f184e480-4f46-486c-8410-2f31574bd927",
             "Value": {
                 "id": "afd9e052-d796-4fde-abe3-175f5367c084",
@@ -2196,6 +2236,8 @@
         "ecc4718d-8cdb-4532-b8ba-34733bc0d95e",
         "94265db9-e71a-4e7a-a108-bee4f72f4258",
         "097d49b8-6511-4d65-95bb-d67e42e7dd83",
+        "00308a2d-f74c-4ec2-8adb-f6458a59aedb",
+        "6983b4b6-b9dc-48eb-810a-8d0a8f524acc",
         "4cb695c9-ecbf-478a-bf84-ae8019dabb23",
         "773ac0ec-d653-41c5-b26d-b6de3bad0f35",
         "d076065a-3e61-428d-acde-35a508ac13cd",
@@ -2212,7 +2254,10 @@
         "64af2e1b-d8b1-4044-9d87-428ca2e681f6",
         "6b1a13b5-76c6-489b-a736-122e68ee754b",
         "877f7bcf-ca49-4322-9c33-c683256ab051",
-        "4695477b-4ee2-4a28-a70f-650f1b973f88"
+        "4695477b-4ee2-4a28-a70f-650f1b973f88",
+        "f14b03cd-e986-4754-84df-e2f1f7749585",
+        "aacff4d7-96a0-432c-8aa3-32ba8b94cdb9",
+        "91798a78-6880-4501-907d-32ef94de2b36"
     ],
     "tutorial": ""
 }

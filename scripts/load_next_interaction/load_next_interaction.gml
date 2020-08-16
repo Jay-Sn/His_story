@@ -55,6 +55,6 @@ if(intr != noone) {
 		is_choosing = true;
 	}
 } else {
-	obj_mainCharacter.SpeedLimit = 7;
+	obj_mainCharacter.is_interacting = false;
 	interaction = interaction_aft_reset;
 }

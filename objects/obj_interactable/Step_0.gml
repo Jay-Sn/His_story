@@ -34,6 +34,6 @@ if(is_choosing) {
 else if(keyboard_check_pressed(ord("X"))) {
 	if(!place_meeting(x, y, obj_mainCharacter)) exit;
 	
-	obj_mainCharacter.SpeedLimit = 0;
+	obj_mainCharacter.is_interacting = true;
 	load_next_interaction(interaction);
 }

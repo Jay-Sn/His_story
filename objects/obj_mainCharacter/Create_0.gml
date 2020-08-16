@@ -11,3 +11,5 @@ vspd = 0;
 SpeedLimit = 7;
 audio_play_sound(sd_starting_ost, 1, true);
 inventory = instance_create_depth(x, y, depth, obj_inventory);
+
+is_interacting = false;

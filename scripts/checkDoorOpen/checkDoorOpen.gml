@@ -1,0 +1,1 @@
+return room_light2._power <= 0
