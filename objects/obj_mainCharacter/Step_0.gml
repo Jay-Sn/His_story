@@ -6,8 +6,6 @@ var speed_limit = SpeedLimit;
 var hor = false;
 var vert = false;
 
-//Inventory
-
 // Movement Keybinds
 if(keyboard_check(vk_shift)) speed_limit +=3;
 

@@ -3,10 +3,10 @@ if(!openedCan){
 	var interaction1 = new_interaction(spr_chat_oldman, 0, "A Child? and that Pendant... Nevermind...");
 	var interaction2 = new_interaction(spr_chat_oldman, 0, "What are you doing this far from civilization?.");
 	var interaction3 = new_interaction(spr_chat_oldman, 2 , "...Or at least what's left of it");
-	var interaction4 = new_interaction(spr_chat_oldman, 2, "You should head back the way you came, it's dangerous up ahead");
+	var interaction4 = new_interaction(spr_chat_oldman, 2, "You should head back the way you came, it's dangerous up ahead!");
 	var interaction5 = new_interaction(spr_chat_mc, 2 , "I can't...");
 	var interaction6 = new_interaction(spr_chat_mc, 2 , "And the cave in the forest is blocked by vines...");
-	var interaction7 = new_interaction(spr_chat_oldman, 1, "I see... Well my name is Linus");
+	var interaction7 = new_interaction(spr_chat_oldman, 1, "I see... Well my name is Linus!");
 	var interaction8 = new_interaction(spr_chat_oldman, 1, "What's yours?");
 
 	//After Question (ASK FOR NAME)
@@ -33,13 +33,14 @@ if(!openedCan){
 	var interaction23 = new_interaction(spr_chat_oldman, 2, "and the bridge was destroyed...");
 	var interaction24 = new_interaction(spr_chat_oldman, 0, "By who? We'll never know...");
 	var interaction25 = new_interaction(spr_chat_oldman, 2, "And thats also why I'm stuck here.");
-	var interaction26 = new_interaction(spr_chat_oldman, 1, "...And so about the food");
+	var interaction26 = new_interaction(spr_chat_oldman, 1, "...And so about the food...");
 	var interaction27 = new_interaction(spr_chat_oldman, 2, "...");
 	var interaction28 = new_interaction(spr_chat_mc, 0, "...");
 	var interaction29 = new_interaction_ext(spr_chat_oldman, 2, "...",0.1,0,false);
-	var interaction30 = new_interaction_ext(spr_chat_mc, 2, "...",0.1,0,false);
+	var interaction30 = new_interaction_ext(spr_chat_mc, 1, "Can I say no-",0.1,0,false);
 	var interaction31 = new_interaction_w_scr(spr_chat_oldman, 2, "Here you go! A can opener, I just thought you'd need it",noone,giveOpener);
-
+	var interaction32 = new_interaction(spr_chat_mc, 0, "Alright.");
+	var interaction32 = new_interaction(spr_chat_mc, 0, "Now where can I find food");
 	//Questions
 	var interaction9 = new_choice();
 	interaction9.choices[0] = "Tell Him Your Name!";
@@ -49,7 +50,7 @@ if(!openedCan){
 
 	var interaction15 = new_choice();
 	interaction15.choices[0] = "Sure!";
-	interaction15.choices[1] = "Don't waste your time! We got places to be, things to do";
+	interaction15.choices[1] = "Don't waste your time! We got places to be, things to do-";
 	interaction15.next_interactions[0] = interaction16;
 	interaction15.next_interactions[1] = interaction17;
 
@@ -93,12 +94,12 @@ if(!openedCan){
 	interaction28.next_interaction = interaction29;
 	interaction29.next_interaction = interaction30;
 	interaction30.next_interaction = interaction31;
-
+	interaction31.next_interaction = interaction32;
 	interaction_aft_reset = interaction1;
 } else{
-	var interaction1 = new_interaction(spr_chat_oldman, 0, "Oh I see you got the food");
-	var interaction2 = new_interaction(spr_chat_oldman, 0, "While you were getting the food I went ahead and cleared the way");
-	var interaction3 = new_interaction(spr_chat_oldman, 2 , "Now we are even!");	
+	var interaction1 = new_interaction(spr_chat_oldman, 1, "Oh I see you got the food");
+	var interaction2 = new_interaction(spr_chat_oldman, 1, "While you were getting the food I went ahead and cleared the way");
+	var interaction3 = new_interaction(spr_chat_oldman, 2, "Now we are even!");	
 	openedCave = true;  
 	interaction = interaction1;
 	interaction1.next_interaction = interaction2;

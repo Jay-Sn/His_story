@@ -1,4 +1,4 @@
-var interaction1 = new_interaction(spr_chat_mc, 0, "All my picture books");
+var interaction1 = new_interaction(spr_chat_mc, 1, "All my picture books!");
 var interaction2 = new_interaction(spr_chat_mc, 2, "...Not that I read any of them now");
 var interaction3 = new_interaction(spr_chat_mc, 0, "...");
 var interaction4 = new_interaction(spr_chat_mc, 2, "Mom used to read them to me...");
