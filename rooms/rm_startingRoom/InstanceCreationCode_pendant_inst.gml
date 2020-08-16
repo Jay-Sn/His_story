@@ -25,6 +25,9 @@ i6.choices[1] = "I am not your Mom.";
 i6.next_interactions[0] = i7;
 i6.next_interactions[1] = i11;
 
+var i14_1 = new_choice();
+i14_1.choices[0] = "Are you okay?"
+i14_1.next_interactions[0] = i14
 //Sequence
 //Default
 i1.next_interaction = i2;
@@ -43,7 +46,7 @@ i11.next_interaction = i12;
 i12.next_interaction = i13;
 
 //After Question
-i13.next_interaction = i14;
+i13.next_interaction = i14_1;
 i14.next_interaction = i15;
 
 interaction = i1;

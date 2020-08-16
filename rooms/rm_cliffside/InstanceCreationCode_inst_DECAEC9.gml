@@ -37,8 +37,8 @@ if(!openedCan and !canopener){
 	var interaction27 = new_interaction(spr_chat_oldman, 2, "...");
 	var interaction28 = new_interaction(spr_chat_mc, 0, "...");
 	var interaction29 = new_interaction_ext(spr_chat_oldman, 2, "...",0.1,0,false);
-	var interaction30 = new_interaction_ext(spr_chat_mc, 1, "Can I say no-",0.1,0,false);
-	var interaction31 = new_interaction_w_scr(spr_chat_oldman, 2, "Here you go! A can opener, I just thought you'd need it",noone,giveOpener);
+	var interaction30 = new_interaction_ext(spr_chat_mc, 1, "Can I say no-",0.3,0,false);
+	var interaction31 = new_interaction_w_scr(spr_chat_oldman, 2, "Here you go! A can opener, I just thought you'd need it!",noone,giveOpener);
 	var interaction32 = new_interaction(spr_chat_mc, 0, "Alright.");
 	var interaction33 = new_interaction(spr_chat_mc, 0, "Now where can I find food...?");
 	//Questions
@@ -99,8 +99,8 @@ if(!openedCan and !canopener){
 	interaction_aft_reset = interaction33;
 	exit
 } else if (openedCan or ds_grid_value_exists(obj_mainCharacter.inventory.ds_inventory, 0, 0, 0, 5, "can") and canopener) {
-	var interaction1 = new_interaction_w_scr(spr_chat_oldman, 1, "Oh I see you got the food", checkOpenedCan, removeOpenedCan);
-	var interaction2 = new_interaction(spr_chat_oldman, 1, "While you were getting the food I went ahead and cleared the way");
+	var interaction1 = new_interaction_w_scr(spr_chat_oldman, 1, "Oh I see you got the food!", checkOpenedCan, removeOpenedCan);
+	var interaction2 = new_interaction(spr_chat_oldman, 1, "While you were getting the food I went ahead and cleared the way.");
 	var interaction3 = new_interaction(spr_chat_oldman, 2, "Now we are even!");
 	var interaction4 = new_interaction(spr_chat_mc, 0, "I've got a can and a can opener... now i just need to combine them...");
 	

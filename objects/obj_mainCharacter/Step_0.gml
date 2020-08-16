@@ -6,6 +6,11 @@ var speed_limit = SpeedLimit;
 var hor = false;
 var vert = false;
 
+if(keyboard_check_pressed(vk_escape)){
+	instance_destroy(obj_mainCharacter);
+	audio_stop_all();
+	room_goto(rm_MainMenu);
+}
 // Movement Keybinds
 if(keyboard_check(vk_shift)) speed_limit +=3;
 
