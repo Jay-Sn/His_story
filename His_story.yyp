@@ -631,6 +631,14 @@
             }
         },
         {
+            "Key": "3e707475-31f7-4354-855f-bcbc11dd5771",
+            "Value": {
+                "id": "64513805-aeab-4bbd-91b4-71b3392c44c1",
+                "resourcePath": "rooms\\rm_puzzle1\\rm_puzzle1.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "40016195-bab0-4f5f-ae98-631e61b2d43b",
             "Value": {
                 "id": "48781e56-2d7c-42ab-8503-741c5e02d955",
@@ -1271,6 +1279,14 @@
             }
         },
         {
+            "Key": "8ce02260-f158-44fd-b7c9-59a5b587448d",
+            "Value": {
+                "id": "3258c693-2a07-46f9-9bd8-c8b14d9e94b6",
+                "resourcePath": "rooms\\rm_credits\\rm_credits.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "8d0de0ad-ea19-4925-b1ed-c95ae6e82d08",
             "Value": {
                 "id": "c9f8f771-0b91-4b0e-a7ae-5792c2d45641",
@@ -1362,7 +1378,7 @@
             "Key": "96274f80-48e2-4a36-b03a-41b052a3c9cb",
             "Value": {
                 "id": "a948c89d-ae8c-4af6-ae64-48efc91e682d",
-                "resourcePath": "rooms\\room0\\room0.yy",
+                "resourcePath": "rooms\\rm_puzzle2\\rm_puzzle2.yy",
                 "resourceType": "GMRoom"
             }
         },
