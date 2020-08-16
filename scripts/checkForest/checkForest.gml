@@ -1,8 +1,8 @@
 if(caveChecked){
-	var True = 1;
+	var True = 0;
 }
 else{
-	var True = 0;
+	var True = 1;
 }
 
 return True;

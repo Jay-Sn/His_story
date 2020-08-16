@@ -1,2 +1,2 @@
-room_goto(rm_MainMenu);
+room_goto(DarkRoom);
 puzzle = true; 

@@ -679,6 +679,14 @@
             }
         },
         {
+            "Key": "4695477b-4ee2-4a28-a70f-650f1b973f88",
+            "Value": {
+                "id": "a7b36717-eb7d-404e-927d-149efe832a7a",
+                "resourcePath": "scripts\\caveCheck\\caveCheck.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "46ba38c0-32eb-49b4-9a01-df8e82d3d467",
             "Value": {
                 "id": "0b91b753-99c0-4e8b-884c-3f2af082050a",
@@ -908,6 +916,14 @@
                 "id": "97b106b2-60c7-4056-8e15-a6065fa2fc7e",
                 "resourcePath": "objects\\obj_lamp\\obj_lamp.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6092d657-1803-4629-9a33-8dcf9dc28cc8",
+            "Value": {
+                "id": "bc0f915c-a8d9-4b78-836d-df35059e7a4a",
+                "resourcePath": "rooms\\DarkRoom\\DarkRoom.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -1204,6 +1220,14 @@
                 "id": "e6ae2541-c0e0-4afc-9b48-6f8602163f70",
                 "resourcePath": "sprites\\spr_absorber\\spr_absorber.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "877f7bcf-ca49-4322-9c33-c683256ab051",
+            "Value": {
+                "id": "0613fda2-6f2b-4f88-95fa-61966e4a061d",
+                "resourcePath": "scripts\\endGame\\endGame.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -2186,7 +2210,9 @@
         "f97f7e65-d73a-41b0-a1c0-05a39e2a261d",
         "29cbcd5e-513e-4db1-ad7c-fb2419667fe4",
         "64af2e1b-d8b1-4044-9d87-428ca2e681f6",
-        "6b1a13b5-76c6-489b-a736-122e68ee754b"
+        "6b1a13b5-76c6-489b-a736-122e68ee754b",
+        "877f7bcf-ca49-4322-9c33-c683256ab051",
+        "4695477b-4ee2-4a28-a70f-650f1b973f88"
     ],
     "tutorial": ""
 }

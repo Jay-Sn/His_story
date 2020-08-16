@@ -47,4 +47,4 @@ i13.next_interaction = i14;
 i14.next_interaction = i15;
 
 interaction = i1;
-interaction_aft_reset = i6;
+interaction_aft_reset = i15;

@@ -40,7 +40,7 @@ if(!openedCan){
 	var interaction30 = new_interaction_ext(spr_chat_mc, 1, "Can I say no-",0.1,0,false);
 	var interaction31 = new_interaction_w_scr(spr_chat_oldman, 2, "Here you go! A can opener, I just thought you'd need it",noone,giveOpener);
 	var interaction32 = new_interaction(spr_chat_mc, 0, "Alright.");
-	var interaction32 = new_interaction(spr_chat_mc, 0, "Now where can I find food");
+	var interaction33 = new_interaction(spr_chat_mc, 0, "Now where can I find food");
 	//Questions
 	var interaction9 = new_choice();
 	interaction9.choices[0] = "Tell Him Your Name!";
@@ -95,11 +95,13 @@ if(!openedCan){
 	interaction29.next_interaction = interaction30;
 	interaction30.next_interaction = interaction31;
 	interaction31.next_interaction = interaction32;
+	interaction32.next_interaction = interaction33;
 	interaction_aft_reset = interaction1;
 } else{
 	var interaction1 = new_interaction(spr_chat_oldman, 1, "Oh I see you got the food");
 	var interaction2 = new_interaction(spr_chat_oldman, 1, "While you were getting the food I went ahead and cleared the way");
-	var interaction3 = new_interaction(spr_chat_oldman, 2, "Now we are even!");	
+	var interaction3 = new_interaction(spr_chat_oldman, 2, "Now we are even!");
+	
 	openedCave = true;  
 	interaction = interaction1;
 	interaction1.next_interaction = interaction2;
