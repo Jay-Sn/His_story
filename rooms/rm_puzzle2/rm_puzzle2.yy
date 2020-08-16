@@ -2,7 +2,7 @@
 {
     "name": "rm_puzzle2",
     "id": "96274f80-48e2-4a36-b03a-41b052a3c9cb",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,
@@ -24,7 +24,8 @@
         "905bc7f8-ba7b-4189-a3fe-e19c04075e1b",
         "3d111b84-e782-49ca-ad5d-d75e417e0359",
         "8e8c9841-336d-4052-ba1a-13e6e45716eb",
-        "37fb9b3b-00ee-46ae-bb7f-c21df06923e8"
+        "37fb9b3b-00ee-46ae-bb7f-c21df06923e8",
+        "3ecbfcdc-8bdd-408a-8c9e-7f4596eab57f"
     ],
     "IsDnD": false,
     "layers": [
@@ -85,7 +86,7 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-
+{"name": "inst_2793D8DA","id": "3ecbfcdc-8bdd-408a-8c9e-7f4596eab57f","colour": { "Value": 4294967295 },"creationCodeFile": "InstanceCreationCode_inst_2793D8DA.gml","creationCodeType": ".gml","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_2793D8DA","objId": "351ab732-a70d-413c-a049-a3b931ad2239","properties": null,"rotation": 0,"scaleX": 16,"scaleY": 12,"mvc": "1.1","x": 512,"y": 384}
             ],
             "layers": [
 
